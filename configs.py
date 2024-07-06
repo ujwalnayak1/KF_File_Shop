@@ -3,7 +3,8 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "22856744"))
   API_HASH = os.environ.get("API_HASH", "d5850aeef7dd3d01fe6b698c0a0d4be8")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "d5850aeef7dd3d01fe6b698c0a0d4be8")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "7386091834:AAHQp8xE3mxiOmv5J_3WgFkkA0CIz-38lxU
+")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "KFAUTOFILTER_bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002139339348"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
