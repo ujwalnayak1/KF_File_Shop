@@ -6,8 +6,8 @@ class Config(object):
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "7386091834:AAHQp8xE3mxiOmv5J_3WgFkkA0CIz-38lxU")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "KFAUTOFILTER_bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002139339348"))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "Publicearn.com")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "c2cabfefc6ab92eee8028d03e79e4113737f3e1d")
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL',"Publicearn.com")
+  SHORTLINK_API = os.environ.get('SHORTLINK_API',"c2cabfefc6ab92eee8028d03e79e4113737f3e1d")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "1981280736"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://kfcinemas:ujwalu@kannadamovieofficial.1jr4puu.mongodb.net/?retryWrites=true&w=majority&appName=KannadaMovieofficial")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002211169297")
@@ -45,7 +45,5 @@ How to Use Bot & it's Benefits??
 
 📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.
 
-
-⚠️ Benefits: If you have a TeleGram Movie Channel or Any Copyright Channel, Then Its Useful for Daily Usage, You can Send Me Your File & I will Send Permanent Link to You & Channel will be Safe from CopyRight Infringement Issue. I support Channel Also You Can Check About Bot.
-
-  
+⚠️ Benefits: If you have a TeleGram Movie Channel or Any Copyright Channel, Then Its Useful for Daily Usage, You can Send Me Your File & I will Send Permanent Link to You & Channel will be Safe from **CopyRight Infringement** Issue. I support Channel Also You Can Check **About Bot**.
+"""
