@@ -80,10 +80,6 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
                         InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
-                    ],
-                    [
-                        InlineKeyboardButton("Support Group", url="https://t.me/VJ_Bot_Disscussion"),
-                        InlineKeyboardButton("YouTube Channel", url="https://youtube.com/@Tech_VJ")
                     ]
                 ]
             )
