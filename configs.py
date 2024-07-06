@@ -1,17 +1,17 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", ""))
-  API_HASH = os.environ.get("API_HASH", "")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
+  API_ID = int(os.environ.get("API_ID", "22856744"))
+  API_HASH = os.environ.get("API_HASH", "d5850aeef7dd3d01fe6b698c0a0d4be8")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "d5850aeef7dd3d01fe6b698c0a0d4be8")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "KFAUTOFILTER_bot")
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002139339348"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "0eefb93e1e3ce9470a7033115ceb1bad13a9d674")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "")
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "1981280736"))
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://kfcinemas:ujwalu@kannadamovieofficial.1jr4puu.mongodb.net/?retryWrites=true&w=majority&appName=KannadaMovieofficial")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002211169297")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002163064206"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
@@ -32,11 +32,11 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [VJ](https://telegram.me/KingVj01)
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [KF](https://telegram.me/Ask_any_Movie_1)
  
  I am Super noob Please Support My Hard Work.
 
-[Donate Me](https://t.me/KingVj01)
+[Donate Me](https://t.me/Ask_any_Movie_1)
 """
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
