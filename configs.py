@@ -6,8 +6,6 @@ class Config(object):
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "7386091834:AAHQp8xE3mxiOmv5J_3WgFkkA0CIz-38lxU")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "KFAUTOFILTER_bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002139339348"))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "Shareus.io")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "3r4NNBapROWiiOZHPEyNK9PM8oj1")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "1981280736"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://kfcinemas:ujwalu@kannadamovieofficial.1jr4puu.mongodb.net/?retryWrites=true&w=majority&appName=KannadaMovieofficial")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002211169297")
